@@ -1,1 +1,2 @@
 # Catch_Plagiarist
+In order to detect likely cases of plagiarism, we will find the common word sequences among a closed set of documents. The input will be a set of plain-text documents and a number n; the output will be a representation showing the number of sequences of n words (called n-grams) that each document has in common with every other document in the set. Using this representation, we will identify suspicious groups of documents that share many common n-grams among themselves but not with others.
